@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title></title>
+  </head>
+  <body>
+    <!--main-->
+    <main class="main-content">
+      <div class="container">
+        <div class="header-form">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="breadcumb">
+                <li class="breadcumb__item"><a class="breadcumb__link" href="index.html">Home</a></li>
+                <li class="breadcumb__item">Proveedores</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <fieldset class="filters">
+                <legend class="filters__title">Filtros</legend>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="select">Cadena:</label>
+                      <select class="form-control" id="select">
+                        <option value="">- Seleccione Cadena -</option>
+                        <option value="sonesta">Sonesta</option>
+                        <option value="hilton">Hilton</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="ruc">Ruc:</label>
+                      <input class="form-control" type="text" id="ruc">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="razonsocial">Razon Social:</label>
+                      <input class="form-control" type="text" id="razonsocial">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="country">País</label>
+                          <select class="form-control" id="country">
+                            <option value="">Seleccione País</option>
+                            <option value="peru">Perú</option>
+                            <option value="argentina">Argentina</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="city">Ciudad</label>
+                          <select class="form-control" id="city">
+                            <option value="">Seleccione Ciudad</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="district">Distrito</label>
+                          <select class="form-control" id="district">
+                            <option value="">Seleccione Distrito</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="state">Estado</label>
+                          <select class="form-control" id="state">
+                            <option value="activo">Activo</option>
+                            <option value="inactivo">Inactivo</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="options-buttons">
+                          <button class="btn btn-primary">Buscar</button>
+                          <button class="btn btn-primary">Limpiar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div class="detail-form">
+          <div class="detail-form__header">
+            <div class="row">
+              <div class="col-md-6">
+                <header class="headline">
+                  <h1 class="headline__title">Todos los Proveedores</h1>
+                </header>
+              </div>
+              <div class="col-md-6">
+                <div class="options-buttons options-buttons--align no-padding">
+                  <button class="btn btn-primary">Cadenas</button>
+                  <button class="btn btn-primary">Nuevo Proveedor</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="detail-form__content">
+            <div class="row">
+              <div class="col-md-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Doc. Fiscal</th>
+                      <th scope="col">Razón Social</th>
+                      <th scope="col">Razón Comercial</th>
+                      <th scope="col">Servicios</th>
+                      <th scope="col">Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">20000000001</th>
+                      <td>DOS A INVERSIONES SAC</td>
+                      <td>Abbitare</td>
+                      <td>1</td>
+                      <td>
+                        <div class="options-buttons no-padding">
+                          <button class="btn btn-primary">Ver</button>
+                          <button class="btn btn-primary">Editar</button>
+                          <button class="btn btn-primary">Borrar</button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">20000000001</th>
+                      <td>DOS A INVERSIONES SAC</td>
+                      <td>Abbitare</td>
+                      <td>1</td>
+                      <td>
+                        <div class="options-buttons no-padding">
+                          <button class="btn btn-primary">Ver</button>
+                          <button class="btn btn-primary">Editar</button>
+                          <button class="btn btn-primary">Borrar</button>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
