@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'proxima_nova_abold';
+  src: url('../fonts/mark_simonson_-_proxima_nova_a_bold-webfont.woff2') format('woff2'),
+       url('../fonts/mark_simonson_-_proxima_nova_a_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_amedium';
+  src: url('../fonts/mark_simonson_-_proxima_nova_a_medium-webfont.woff2') format('woff2'),
+       url('../fonts/mark_simonson_-_proxima_nova_a_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_alight';
+  src: url('../fonts/mark_simonson_-_proxima_nova_a_light-webfont.woff2') format('woff2'),
+       url('../fonts/mark_simonson_-_proxima_nova_a_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_athin';
+  src: url('../fonts/mark_simonson_-_proxima_nova_a_thin-webfont.woff2') format('woff2'),
+       url('../fonts/mark_simonson_-_proxima_nova_a_thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

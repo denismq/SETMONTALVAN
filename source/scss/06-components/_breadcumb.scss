@@ -1,0 +1,16 @@
+.breadcumb{
+  display: flex;
+  margin-bottom: 30px;
+  &__item{
+    position: relative;
+    &:nth-child(2){
+      &:before{
+        content: '>';
+        padding: 0 3px;
+      }
+    }
+  }
+  &__link{
+
+  }
+}

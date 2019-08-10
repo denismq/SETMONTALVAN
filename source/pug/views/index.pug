@@ -1,0 +1,109 @@
+extends ../layout/layout
+
+block settings
+    
+block content
+    main.main-content
+        .container
+            .header-form
+                .row
+                    .col-md-12
+                        ul.breadcumb
+                            li.breadcumb__item
+                                a(href="index.html" class="breadcumb__link") Home
+                            li.breadcumb__item Proveedores
+                .row
+                    .col-md-12
+                        fieldset.filters
+                            legend.filters__title Filtros
+                            .row
+                                .col-md-3
+                                    .form-group
+                                        label(class="" for="select") Cadena:
+                                        select(class="form-control" id="select")
+                                            option(value="") - Seleccione Cadena -
+                                            option(value="sonesta") Sonesta
+                                            option(value="hilton") Hilton
+                                .col-md-3
+                                    .form-group
+                                        label(class="" for="ruc") Ruc:
+                                        input(type="text" class="form-control" id="ruc")
+                                .col-md-6
+                                    .form-group
+                                        label(class="" for="razonsocial") Razon Social:
+                                        input(type="text" class="form-control" id="razonsocial")
+                            .row
+                                .col-md-7
+                                    .row
+                                        .col-md-4
+                                            .form-group
+                                                label(class="" for="country") País
+                                                select(class="form-control" id="country")
+                                                    option(value="") Seleccione País
+                                                    option(value="peru") Perú
+                                                    option(value="argentina") Argentina
+                                        .col-md-4
+                                            .form-group
+                                                label(class="" for="city") Ciudad
+                                                select(class="form-control" id="city")
+                                                    option(value="") Seleccione Ciudad
+                                        .col-md-4
+                                            .form-group
+                                                label(class="" for="district") Distrito
+                                                select(class="form-control" id="district")
+                                                    option(value="") Seleccione Distrito
+                                .col-md-5
+                                    .row
+                                        .col-md-6
+                                            .form-group
+                                                label(class="" for="state") Estado
+                                                select(class="form-control" id="state")
+                                                    option(value="activo") Activo
+                                                    option(value="inactivo") Inactivo
+                                        .col-md-6
+                                            .options-buttons
+                                                button(class="btn btn-primary") Buscar
+                                                button(class="btn btn-primary") Limpiar
+            .detail-form
+                .detail-form__header
+                    .row
+                        .col-md-6
+                            header.headline
+                                h1.headline__title Todos los Proveedores
+                        .col-md-6
+                            .options-buttons.options-buttons--align.no-padding
+                                button(class="btn btn-primary") Cadenas
+                                button(class="btn btn-primary") Nuevo Proveedor
+                .detail-form__content
+                    .row
+                        .col-md-12
+                            table.table
+                                thead
+                                    tr
+                                        th(scope='col') Doc. Fiscal
+                                        th(scope='col') Razón Social
+                                        th(scope='col') Razón Comercial
+                                        th(scope='col') Servicios
+                                        th(scope='col') Acciones
+                                |
+                                tbody
+                                    tr
+                                        th(scope='row') 20000000001
+                                        td DOS A INVERSIONES SAC
+                                        td Abbitare
+                                        td 1
+                                        td
+                                            .options-buttons.no-padding
+                                                button(class="btn btn-primary") Ver
+                                                button(class="btn btn-primary") Editar
+                                                button(class="btn btn-primary") Borrar
+                                    tr
+                                        th(scope='row') 20000000001
+                                        td DOS A INVERSIONES SAC
+                                        td Abbitare
+                                        td 1
+                                        td
+                                            .options-buttons.no-padding
+                                                button(class="btn btn-primary") Ver
+                                                button(class="btn btn-primary") Editar
+                                                button(class="btn btn-primary") Borrar

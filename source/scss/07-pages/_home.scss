@@ -1,0 +1,21 @@
+body{
+  background-color: #e4e4e4;
+}
+.main-content{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header-form{
+
+}
+
+.detail-form{
+  padding-top: 30px;
+  &__header{
+    
+  }
+  &__content{
+    padding-top: 30px;
+  }
+}
